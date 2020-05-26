@@ -1,0 +1,184 @@
+*{
+
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+
+}
+
+
+header{
+
+     width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+
+width: 100%;
+height: 15vh;
+background: black;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-transform: uppercase;
+
+
+}
+
+
+nav .logo{
+
+width: 25%;
+text-align: center;
+
+
+}
+
+nav .menu{
+
+width: 40%;
+font-size: 16px;
+
+display: flex;
+justify-content: space-around;
+font-weight: bold;
+
+
+
+}
+
+nav .menu a{
+  
+  width: 25%;
+text-decoration: none;
+color: white;
+font-weight: bold;
+
+}
+
+
+nav .menu a:first-child{
+color: orange;
+
+
+}
+
+
+main{
+
+width: 100%;
+height: 85vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+
+}
+
+
+section{
+
+
+
+}
+
+section h3{
+ color: red;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black; 
+
+  
+}
+
+section h1{
+ color: blue;
+font-size: 60px;
+font-weight: 900;
+text-shadow: 8px 1px 5px orange;
+text-transform: uppercase;
+
+}
+
+
+section p{
+   color: white;
+  
+    font-size: 40px;
+    word-spacing: 4px;
+    margin-bottom: 27px;
+text-shadow: 2px 2px 1px black;
+
+
+}
+
+section a{
+
+    padding: 12px 30px;
+   border-radius: 4px;
+   outline: none;
+   text-transform: uppercase;
+    font-size: 20x;
+   font-weight: 550;
+text-decoration: none;
+letter-spacing: 3px;
+transition: all .5s ease;
+
+
+}
+
+
+section .btnone{
+
+ background: white;
+color: #000;
+
+}
+
+.btnone:hover{
+background:#00b894;
+color: white;
+}
+
+section .btntwo{
+
+
+   background:#00b894;
+color: white;
+
+}
+
+.btntwo:hover{
+background: white;
+color: #000;
+}
+
+
+.change_content:after{
+
+content: '';
+animation: changetext 5s infinite linear;
+color: #00b894;
+text-transform: uppercase;
+
+}
+
+@keyframes changetext{
+ 0%{content: "dargeeling";}
+ 20%{content: "kerala";}
+ 40%{content: "agra";}
+ 60%{content: "jaipur";}
+ 80%{content: "delhi";}
+ 100%{content: "hariyana";}
+}
+
+
